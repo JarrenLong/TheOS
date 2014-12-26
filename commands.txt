@@ -1,0 +1,15 @@
+Commands to Implement
+========================
+find - find files/folders/strings/resources (use regexp)
+help - man pages, help topics, etc.
+login/out - Login/out of a user account
+shutdown/restart/sleep - power functions
+open/execute/run - open files, run apps, etc.
+save - save files, current pages, config settings, etc.
+close/quit - close files/apps, etc.
+set [variable] = [value] - path variables, speaker volume, etc.
+goto/switch [tag] - switch between desktop, apps, favorites, system, etc.
+new [name(.ext)]- create new resource (no extension = folder)
+delete [name(.ext)] - remove existing resource
+sync [directory] - differential backup
+backup [directory] - full backup

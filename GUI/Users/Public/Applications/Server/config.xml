@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<!-- Server main configuration -->
+<server threads="2">
+ <name>localhost</name>
+ <admin>jincsinc@gmail.com</admin>
+ <dir>[directory installed to]</dir>
+
+ <!-- Firewall Configuration -->
+ <firewall>
+ </firewall>
+
+ <!-- Plugin configurations -->
+ <plugin name="echo" port="7" maxUsers="50" />
+ <plugin name="daytime" port="13" maxUsers="50" />
+ <plugin name="smtp" port="25" maxUsers="50" />
+ <plugin name="time" port="37" maxUsers="50" />
+ <plugin name="http" port="80" maxUsers="50" />
+ <plugin name="pop" port="110" maxUsers="50" />
+
+</server>

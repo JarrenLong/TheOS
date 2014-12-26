@@ -1,0 +1,107 @@
+<xml standalone="yes" version="1.0">
+
+<header type="general">
+ <field>Cache-Control</field>
+ <field>Connection</field>
+ <field>Date</field>
+ <field>Pragma</field>
+ <field>Trailer</field>
+ <field>Transfer-Encoding</field>
+ <field>Upgrade</field>
+ <field>Via</field>
+ <field>Warning</field>
+</header>
+
+<header type="entity">
+ <field>Allow</field>
+ <field>Content-Encoding</field>
+ <field>Content-Language</field>
+ <field>Content-Length</field>
+ <field>Content-Location</field>
+ <field>Content-MD5</field>
+ <field>Content-Range</field>
+ <field>Content-Type</field>
+ <field>Expires</field>
+ <field>Last-Modified</field>
+</header>
+
+<header type="request">
+ <field>Accept</field>
+ <field>Accept-Charset</field>
+ <field>Accept-Encoding</field>
+ <field>Accept-Language</field>
+ <field>Authorization</field>
+ <field>Expect</field>
+ <field>From</field>
+ <field>Host</field>
+ <field>If-Match</field>
+ <field>If-Modified-Since</field>
+ <field>If-None-Match</field>
+ <field>If-Range</field>
+ <field>If-Unmodified-Since</field>
+ <field>Max-Forwards</field>
+ <field>Proxy-Authorization</field>
+ <field>Range</field>
+ <field>Referer</field>
+ <field>TE</field>
+ <field>User-Agent</field>
+</header>
+
+<header type="response">
+ <field>Accept-Range</field>
+ <field>Age</field>
+ <field>ETag</field>
+ <field>Location</field>
+ <field>Proxy-Authenticate</field>
+ <field>Retry-After</field>
+ <field>Server</field>
+ <field>Vary</field>
+ <field>WWW-Authenticate</field>
+</header>
+
+<!-- Specific Error Code messages -->
+<error>
+ <code="100">Continue</code>
+ <code="101">Switching Protocols</code>
+ <code="200">OK</code>
+ <code="201">Created</code>
+ <code="202">Accepted</code>
+ <code="203">Non-Authoritive Information</code>
+ <code="204">No Content</code>
+ <code="205">Reset Content</code>
+ <code="206">Partial Content</code>
+ <code="300">Multiple Choices</code>
+ <code="301">Moved Permanently</code>
+ <code="302">Found</code>
+ <code="303">See Other</code>
+ <code="304">Not Modified</code>
+ <code="305">Use Proxy</code>
+ <code="306">Reserved</code>
+ <code="307">Temporary Redirect</code>
+ <code="400">Bad Request</code>
+ <code="401">Unauthorized</code>
+ <code="402">Payment Required</code>
+ <code="403">Forbidden</code>
+ <code="404">Not Fuond</code>
+ <code="405">Method Not Allowed</code>
+ <code="406">Not Acceptable</code>
+ <code="407">Proxy Authentication Required</code>
+ <code="408">Request Timeout</code>
+ <code="409">Conflict</code>
+ <code="410">Gone</code>
+ <code="411">Length Required</code>
+ <code="412">Precondition Failed</code>
+ <code="413">Request Entity Too Large</code>
+ <code="414">Request URI Too Long</code>
+ <code="415">Unsupported Media Type</code>
+ <code="416">Requested Range Not Satisfiable</code>
+ <code="417">Expectation Falied</code>
+ <code="500">Internal Server Error</code>
+ <code="501">Not Implemented</code>
+ <code="502">Bad Gateway</code>
+ <code="503">Service Unavailable</code>
+ <code="504">Gateway Timeout</code>
+ <code="505">HTTP Version Not Supported</code>
+</error>
+
+</xml>

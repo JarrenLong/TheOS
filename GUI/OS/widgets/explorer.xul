@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<toolbox id="masterRibbon">
+		<menubar id="RibbonMenu">
+			<menu id="rmDesktop" label="Desktop">
+				<menupopup>
+					<menuitem id="menuid" class="menuitem-iconic" label="Goto My Desktop" oncommand="{action}" image="./OS/icons/22x22/places/user-desktop.png"/>
+				</menupopup>
+			</menu>
+			<menu id="rmApplications" label="Applications">
+				<menupopup>
+					<menu id="menuid" label="Accessories" oncommand="{action}">
+						<menupopup>
+							<menuitem label="temp"/>
+						</menupopup>
+					</menu>
+					<menu id="menuid" label="Games" oncommand="{action}">
+						<menupopup>
+							<menuitem label="temp"/>
+						</menupopup>
+					</menu>
+					<menu id="menuid" label="Graphics" oncommand="{action}">
+						<menupopup>
+							<menuitem label="temp"/>
+						</menupopup>
+					</menu>
+					<menu id="menuid" label="Internet" oncommand="{action}">
+						<menupopup>
+							<menuitem label="temp"/>
+						</menupopup>
+					</menu>
+					<menu id="menuid" label="Office" oncommand="{action}">
+						<menupopup>
+							<menuitem label="temp"/>
+						</menupopup>
+					</menu>
+					<menu id="menuid" class="menuitem-iconic" label="Sound &amp; Video" oncommand="{action}" image="http://www.google.com/intl/en_ALL/images/logo.gif">
+						<menupopup>
+							<menuitem label="temp"/>
+						</menupopup>
+					</menu>
+					<menuseparator/>
+					<menuitem id="menuid" label="Add/Remove ..." oncommand="{action}"/>
+				</menupopup>
+			</menu>
+			<menu id="rmFavorites" label="Favorites">
+				<menupopup>
+					<menuitem id="menuid" class="menuitem-iconic" label="Some Bookmark" oncommand="mr_Open" image="http://www.google.com/intl/en_ALL/images/logo.gif"/>
+				</menupopup>
+			</menu>
+			<menu id="rmSystem" label="System">
+				<menupopup>
+					<menu id="menuid" class="menuitem-iconic" label="Preferences" oncommand="{action}" image="http://www.google.com/intl/en_ALL/images/logo.gif">
+						<menupopup>
+							<menuitem label="temp"/>
+						</menupopup>
+					</menu>
+					<menu id="menuid" class="menuitem-iconic" label="Administration" oncommand="{action}" image="http://www.google.com/intl/en_ALL/images/logo.gif">
+						<menupopup>
+							<menuitem label="temp"/>
+						</menupopup>
+					</menu>
+					<menuseparator/>
+					<menuitem id="menuid" class="menuitem-iconic" label="Help Topics ..." oncommand="{action}" image="http://www.google.com/intl/en_ALL/images/logo.gif"/>
+					<menuitem id="menuid" class="menuitem-iconic" label="About MyOS ..." oncommand="{action}" image="http://www.google.com/intl/en_ALL/images/logo.gif"/>
+					<menuseparator/>
+					<menuitem id="menuid" class="menuitem-iconic" label="Quit ..." oncommand="{action}" image="http://www.google.com/intl/en_ALL/images/logo.gif"/>
+				</menupopup>
+			</menu>
+			<splitter/>
+			<progressmeter mode="determined" value="25"/>
+			<label value="My Operating System v0.1a"/>
+			<splitter/>
+			<label value="[DATE]"/>
+			<label value="[TIME]"/>
+		</menubar>
+		<toolbar id="RibbonToolbar">
+			<toolbarbutton id="rtBack" oncommand="mr_Undo" image="../icons/22x22/actions/go-previous.png" tooltiptext="Go back one page"/>
+			<toolbarbutton id="rtForward" oncommand="mr_Redo" image="../icons/22x22/actions/go-next.png" tooltiptext="Go forward one page"/>
+			<textbox value="Type Commands Here ..." width="600"/>
+			<toolbarbutton id="rtGo" oncommand="mr_Go" image="../icons/22x22/actions/system-search.png" tooltiptext="Goto address in Location Bar"/>
+		</toolbar>
+		<toolbar id="RobbonTabs">
+			<toolbarbutton id="tabA" oncommand="OpenTab(a)" image="../icons/16x16/actions/system-search.png" tooltiptext="Tab Test" label="Tab #1"/>
+			<toolbarbutton id="tabA" oncommand="OpenTab(a)" image="../icons/16x16/actions/system-search.png" tooltiptext="Tab Test" label="Tab #2"/>
+		</toolbar>
+	</toolbox>
+	<vbox flex="1" equalsize="always" align="center">
+		<image src="yoruichi.jpg"/>
+	</vbox>
+</window>

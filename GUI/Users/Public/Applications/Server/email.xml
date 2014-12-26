@@ -1,0 +1,34 @@
+<xml standalone="yes" version="1.0">
+
+<!-- Specific Error Code messages -->
+<error>
+ <code="211">System status, or system help reply</code>
+ <code="214">Help message</code>
+ <code="220">%s Service ready</code>
+ <code="220">Ok</code>
+ <code="220">Welcome to XmailServer</code>
+ <code="221">%s Service closing transmission channel</code>
+ <code="250">OK, Action completed</code>
+ <code="251">"User not local; will forward to %s</code>
+
+ <code="354">Start mail input; end with crlf.crlf</code>
+
+ <code="421">%s Service not available, closing transmission channel</code>
+ <code="450">Requested mail action not taken: mailbox unavailable</code>
+ <code="451">Requested action aborted: error in processing</code>
+ <code="452">Requested action not taken: insufficient system storage</code>
+
+ <code="500">Syntax error, command unrecognized</code>
+ <code="501">Syntax error in parameters or arguments</code>
+ <code="502">Command not implemented</code>
+ <code="503">Bad sequence of commands</code>
+ <code="504">Command parameter not implemented</code>
+ <code="550">Unknown Command</code>
+ <code="550">Requested action not taken: mailbox unavailable</code>
+ <code="551">User not local; please try <forward-path></code>
+ <code="552">Requested mail action aborted: exceeded storage allocation</code>
+ <code="553">Requested action not taken: mailbox name not allowed</code>
+ <code="554">Transaction failed</code>
+</error>
+
+</xml>

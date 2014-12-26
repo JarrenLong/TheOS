@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Kernel" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="Kernel.bin" prefix_auto="0" extension_auto="0" />
+				<Option working_dir="" />
+				<Option object_output="Bin" />
+				<Option type="5" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-fomit-frame-pointer" />
+					<Add option="-finline-functions" />
+					<Add option="-nostdinc" />
+					<Add option="-fno-builtin" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Code\Console.cpp" />
+		<Unit filename="Code\Console.h" />
+		<Unit filename="Code\Core.h" />
+		<Unit filename="Code\Device.h" />
+		<Unit filename="Code\EntryPoint.cpp" />
+		<Unit filename="Code\GDT.h" />
+		<Unit filename="Code\Graphics.h" />
+		<Unit filename="Code\IDT.h" />
+		<Unit filename="Code\IRQ.h" />
+		<Unit filename="Code\ISR.h" />
+		<Unit filename="Code\Kernel.cpp" />
+		<Unit filename="Code\Kernel.h" />
+		<Unit filename="Code\Keyboard.cpp" />
+		<Unit filename="Code\Keyboard.h" />
+		<Unit filename="Code\PIT.h" />
+		<Unit filename="Code\String.cpp" />
+		<Unit filename="Code\String.h" />
+		<Unit filename="Code\Thread.cpp" />
+		<Unit filename="Code\Thread.h" />
+		<Unit filename="Code\Timer.cpp" />
+		<Unit filename="Code\Timer.h" />
+		<Unit filename="Code\X86.cpp" />
+		<Unit filename="Code\X86.h" />
+		<Unit filename="Code\icxxabi.cpp" />
+		<Unit filename="Code\icxxabi.h" />
+		<Unit filename="Code\types.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
